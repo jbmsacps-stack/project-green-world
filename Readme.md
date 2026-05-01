@@ -221,7 +221,6 @@ project-green-world/
 ├── README.md
 ├── images/
 │   ├── LeafLogoTemp.jpg
-│   └── nav-texture.webp
 │
 └── client/
     ├── index.html
@@ -269,32 +268,6 @@ Please check back for future updates.
 * [ ] Improve SEO metadata for all pages
 * [ ] Final mobile polish
 * [ ] Deploy stable version through GitHub Pages
-
----
-
-## Screenshots
-
-<div align="center">
-
-### Home Page
-
-<img src="screenshots/home.png" alt="Project Green World Home Page Screenshot" width="100%" />
-
-<br><br>
-
-### Causes Page
-
-<img src="screenshots/causes.png" alt="Project Green World Causes Page Screenshot" width="100%" />
-
-<br><br>
-
-### Mobile View
-
-<img src="screenshots/mobile.png" alt="Project Green World Mobile View Screenshot" width="45%" />
-
-</div>
-
-> Screenshot files will be added later as the project design becomes more complete.
 
 ---
 
