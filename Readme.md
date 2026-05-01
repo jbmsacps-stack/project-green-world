@@ -1,7 +1,4 @@
 <div align="center">
-
-<img src="images/LeafLogoTemp.jpg" alt="Project Green World Logo" width="150" />
-
 # Project Green World
 
 **Awareness for a cleaner, greener future.**  
