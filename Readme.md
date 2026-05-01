@@ -1,5 +1,5 @@
 <div align="center">
-# Project Green World
+# Project Green World #
 
 **Awareness for a cleaner, greener future.**  
 A free Global Warming awareness website built to educate, inform, and encourage responsible climate action.
