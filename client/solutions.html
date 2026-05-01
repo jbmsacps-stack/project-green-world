@@ -1,87 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solutions | Project Green World</title>
 
-  <link rel="stylesheet" href="common.css">
-  <link rel="icon" type="image/png" href="/images/LeafLogoTemp.jpg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions | Project Green World</title>
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="icon" type="image/png" href="/images/LeafLogoTemp.jpg">
 </head>
+
 <body>
 
     <header class="site-header">
-    <nav class="navbar" aria-label="Main navigation">
+        <nav class="navbar" aria-label="Main navigation">
 
-        <a href="index.html" class="logo" data-en="Project Green World" data-ta="ப்ராஜெக்ட் கிரீன் வேர்ல்ட்">
-            Project Green World
-        </a>
-
-        <ul class="nav-links">
-            <li><a href="index.html" data-en="Home" data-ta="முகப்பு">Home</a></li>
-            <li><a href="causes.html" data-en="Causes" data-ta="காரணங்கள்">Causes</a></li>
-            <li><a href="effects.html" data-en="Effects" data-ta="விளைவுகள்">Effects</a></li>
-            <li><a href="solutions.html" data-en="Solutions" data-ta="தீர்வுகள்">Solutions</a></li>
-            <li><a href="disclaimer.html" data-en="Disclaimer" data-ta="பொறுப்புத் துறப்பு">Disclaimer</a></li>
-        </ul>
-
-        <div class="nav-actions">
-            <button class="lang-btn" type="button" data-en="தமிழ்" data-ta="English">
-                தமிழ்
-            </button>
-
-            <button class="share-btn" type="button" data-en="Share" data-ta="பகிர்">
-                Share
-            </button>
-
-            <a href="donate.html" class="donate-btn" data-en="Donate" data-ta="நன்கொடை">
-                Donate
-            </a>
-        </div>
-
-    </nav>
-</header>
-
-  <main>
-    <section class="page-hero">
-      <p class="section-label">Project Green World</p>
-      <h1>Page Name</h1>
-      <p>Short page intro will come here.</p>
-    </section>
-  </main>
-
-    <footer class="site-footer">
-    <div class="footer-content">
-
-        <div class="footer-brand">
-            <h2 data-en="Project Green World" data-ta="ப்ராஜெக்ட் கிரீன் வேர்ல்ட்">
+            <a href="index.html" class="logo" data-en="Project Green World" data-ta="ப்ராஜெக்ட் கிரீன் வேர்ல்ட்">
                 Project Green World
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" data-en="Home" data-ta="முகப்பு" class="active-link">Home</a></li>
+                <li><a href="causes.html" data-en="Causes" data-ta="காரணங்கள்" class="active-link">Causes</a></li>
+                <li><a href="effects.html" data-en="Effects" data-ta="விளைவுகள்" class="active-link">Effects</a></li>
+                <li><a href="solutions.html" data-en="Solutions" data-ta="தீர்வுகள்" class="active-link">Solutions</a></li>
+                <li><a href="disclaimer.html" data-en="Disclaimer" data-ta="பொறுப்புத் துறப்பு" class="active-link">Disclaimer</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="lang-btn" type="button" data-en="தமிழ்" data-ta="English" aria-label="Switch language between English and Tamil">
+                    தமிழ்
+                </button>
+
+                <button class="share-btn" type="button" data-en="Share" data-ta="பகிர்" aria-label="Share this page">
+                    Share
+                </button>
+
+                <a href="donate.html" class="donate-btn" data-en="Donate" data-ta="நன்கொடை" class="donate-btn active-link">
+                    Donate
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-hero" aria-labelledby="solutions-title">
+            <p class="section-label" data-en="Project Green World" data-ta="ப்ராஜெக்ட் கிரீன் வேர்ல்ட்">
+                Project Green World
+            </p>
+
+            <h1 id="solutions-title" data-en="Solutions for Global Warming" data-ta="உலக வெப்பமயமாதலுக்கான தீர்வுகள்">
+                Solutions for Global Warming
+            </h1>
+
+            <p data-en="Global warming can be reduced through responsible choices, cleaner energy, nature protection, and community action."
+                data-ta="பொறுப்பான தேர்வுகள், தூய்மையான ஆற்றல், இயற்கை பாதுகாப்பு மற்றும் சமூக நடவடிக்கைகள் மூலம் உலக வெப்பமயமாதலை குறைக்கலாம்.">
+                Global warming can be reduced through responsible choices, cleaner energy, nature protection, and
+                community action.
+            </p>
+        </section>
+
+        <section class="content-section" aria-labelledby="main-solutions-title">
+            <div class="section-heading">
+                <p class="section-label" data-en="Practical Solutions" data-ta="நடைமுறை தீர்வுகள்">
+                    Practical Solutions
+                </p>
+
+                <h2 id="main-solutions-title" data-en="What can we do to reduce global warming?"
+                    data-ta="உலக வெப்பமயமாதலை குறைக்க நாம் என்ன செய்யலாம்?">
+                    What can we do to reduce global warming?
+                </h2>
+            </div>
+
+            <div class="topic-list">
+
+                <article class="topic-card">
+                    <h3 data-en="Use Clean Energy" data-ta="தூய்மையான ஆற்றலை பயன்படுத்துதல்">
+                        Use Clean Energy
+                    </h3>
+
+                    <p data-en="Short explanation will come here." data-ta="சிறிய விளக்கம் இங்கே வரும்.">
+                        Short explanation will come here.
+                    </p>
+                </article>
+
+                <article class="topic-card">
+                    <h3 data-en="Plant and Protect Trees" data-ta="மரங்களை நடுதல் மற்றும் பாதுகாத்தல்">
+                        Plant and Protect Trees
+                    </h3>
+
+                    <p data-en="Short explanation will come here." data-ta="சிறிய விளக்கம் இங்கே வரும்.">
+                        Short explanation will come here.
+                    </p>
+                </article>
+
+                <article class="topic-card">
+                    <h3 data-en="Reduce Waste" data-ta="கழிவுகளை குறைத்தல்">
+                        Reduce Waste
+                    </h3>
+
+                    <p data-en="Short explanation will come here." data-ta="சிறிய விளக்கம் இங்கே வரும்.">
+                        Short explanation will come here.
+                    </p>
+                </article>
+
+                <article class="topic-card">
+                    <h3 data-en="Choose Responsible Transport" data-ta="பொறுப்பான போக்குவரத்தை தேர்வு செய்தல்">
+                        Choose Responsible Transport
+                    </h3>
+
+                    <p data-en="Short explanation will come here." data-ta="சிறிய விளக்கம் இங்கே வரும்.">
+                        Short explanation will come here.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="media-section" aria-labelledby="solutions-media-title">
+            <div class="section-heading">
+                <p class="section-label" data-en="Visual Learning" data-ta="காட்சி வழி கற்றல்">
+                    Visual Learning
+                </p>
+
+                <h2 id="solutions-media-title" data-en="Images and Videos" data-ta="படங்கள் மற்றும் காணொளிகள்">
+                    Images and Videos
+                </h2>
+            </div>
+
+            <div class="media-placeholder">
+                <!-- Add solutions image or educational video later -->
+            </div>
+        </section>
+
+        <section class="conclusion-section" aria-labelledby="solutions-conclusion-title">
+            <h2 id="solutions-conclusion-title" data-en="Conclusion" data-ta="முடிவுரை">
+                Conclusion
             </h2>
 
-            <p data-en="Awareness for a cleaner, greener future."
-               data-ta="சுத்தமான, பசுமையான எதிர்காலத்திற்கான விழிப்புணர்வு.">
-                Awareness for a cleaner, greener future.
+            <p data-en="Conclusion will come here." data-ta="முடிவுரை இங்கே வரும்.">
+                Conclusion will come here.
             </p>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <h2 data-en="Project Green World" data-ta="ப்ராஜெக்ட் கிரீன் வேர்ல்ட்">
+                    Project Green World
+                </h2>
+
+                <p data-en="Awareness for a cleaner, greener future."
+                    data-ta="சுத்தமான, பசுமையான எதிர்காலத்திற்கான விழிப்புணர்வு.">
+                    Awareness for a cleaner, greener future.
+                </p>
+            </div>
+
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="index.html" data-en="Home" data-ta="முகப்பு">Home</a>
+                <a href="causes.html" data-en="Causes" data-ta="காரணங்கள்">Causes</a>
+                <a href="effects.html" data-en="Effects" data-ta="விளைவுகள்">Effects</a>
+                <a href="solutions.html" data-en="Solutions" data-ta="தீர்வுகள்">Solutions</a>
+                <a href="donate.html" data-en="Donate" data-ta="நன்கொடை">Donate</a>
+                <a href="disclaimer.html" data-en="Disclaimer" data-ta="பொறுப்புத் துறப்பு">Disclaimer</a>
+            </nav>
+
+            <p class="footer-note" data-en="This website is created for educational and awareness purposes."
+                data-ta="இந்த இணையதளம் கல்வி மற்றும் விழிப்புணர்வு நோக்கங்களுக்காக உருவாக்கப்பட்டுள்ளது.">
+                This website is created for educational and awareness purposes.
+            </p>
+
         </div>
+    </footer>
 
-        <nav class="footer-links" aria-label="Footer navigation">
-            <a href="index.html" data-en="Home" data-ta="முகப்பு">Home</a>
-            <a href="causes.html" data-en="Causes" data-ta="காரணங்கள்">Causes</a>
-            <a href="effects.html" data-en="Effects" data-ta="விளைவுகள்">Effects</a>
-            <a href="solutions.html" data-en="Solutions" data-ta="தீர்வுகள்">Solutions</a>
-            <a href="donate.html" data-en="Donate" data-ta="நன்கொடை">Donate</a>
-            <a href="disclaimer.html" data-en="Disclaimer" data-ta="பொறுப்புத் துறப்பு">Disclaimer</a>
-        </nav>
-
-        <p class="footer-note"
-           data-en="This website is created for educational and awareness purposes."
-           data-ta="இந்த இணையதளம் கல்வி மற்றும் விழிப்புணர்வு நோக்கங்களுக்காக உருவாக்கப்பட்டுள்ளது.">
-            This website is created for educational and awareness purposes.
-        </p>
-
-    </div>
-</footer>
-
-  <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>

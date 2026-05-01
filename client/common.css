@@ -2,6 +2,80 @@ html {
     scroll-behavior: smooth;
 }
 
+/* After Adding All HTML */
+.page-hero {
+    padding: 72px 32px 48px;
+}
+
+.page-hero h1 {
+    max-width: 900px;
+    font-size: clamp(2.4rem, 5vw, 4.5rem);
+    line-height: 1.1;
+    margin-bottom: 18px;
+    color: #1f3d24;
+}
+
+.page-hero p {
+    max-width: 760px;
+    color: #1f3d24;
+}
+
+.content-section,
+.media-section,
+.conclusion-section {
+    padding: 56px 32px;
+}
+
+.topic-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.topic-card {
+    padding: 24px;
+    border: 1px solid rgba(31, 61, 36, 0.18);
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+.topic-card h3 {
+    margin-bottom: 12px;
+    color: #1f3d24;
+}
+
+.topic-card p {
+    color: #1f3d24;
+}
+
+.topic-card a {
+    display: inline-block;
+    margin-top: 16px;
+    color: #1f3d24;
+    font-weight: bold;
+}
+
+.media-placeholder {
+    min-height: 320px;
+    border: 2px dashed rgba(31, 61, 36, 0.35);
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.conclusion-section {
+    max-width: 900px;
+}
+
+.conclusion-section h2 {
+    margin-bottom: 14px;
+    color: #1f3d24;
+}
+
+.conclusion-section p {
+    color: #1f3d24;
+}
+
+/* Before Adding All HTML */
 .site-footer {
     padding: 32px;
     background-color: #8cc090;
@@ -36,6 +110,7 @@ html {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -98,11 +173,23 @@ body {
 .lang-btn,
 .share-btn,
 .donate-btn {
-    border: 1px solid #1f3d24;
+    position: relative;
+    overflow: hidden;
+
+    border: none;
     border-radius: 999px;
-    padding: 6px 14px;
-    background: transparent;
-    color: #1f3d24;
+    padding: 7px 16px;
+
+    background-color: #2f6f3e;
+    color: #f6fff4;
+    font-weight: 600;
+
+    box-shadow: 0 4px 10px rgba(31, 61, 36, 0.18);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
 }
 
 .donate-btn {
@@ -152,6 +239,10 @@ button {
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .topic-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 600px) {
@@ -170,4 +261,238 @@ button {
     .donate-btn {
         padding: 5px 12px;
     }
+
+    .page-hero,
+    .content-section,
+    .media-section,
+    .conclusion-section {
+        padding: 44px 20px;
+    }
+
+    .topic-list {
+        grid-template-columns: 1fr;
+    }
+
+    .media-placeholder {
+        min-height: 220px;
+    }
+}
+
+/* for class active link */
+.nav-links a {
+    color: #1f3d24;
+    font-weight: 500;
+    display: inline-block;
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.nav-links a:hover {
+    color: #0f5c2a;
+    transform: scale(1.06);
+}
+
+/* Button Change */
+
+.lang-btn,
+.share-btn,
+.donate-btn {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+
+    border: none;
+    border-radius: 999px;
+    padding: 7px 16px;
+
+    background-color: #2f6f3e;
+    color: #f6fff4;
+    font-weight: 600;
+
+    box-shadow: 0 4px 10px rgba(31, 61, 36, 0.18);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+
+/* Shared pattern layers */
+.lang-btn::before,
+.share-btn::before,
+.donate-btn::before,
+.lang-btn::after,
+.share-btn::after,
+.donate-btn::after {
+    position: absolute;
+    inset: -40px;
+    z-index: -1;
+
+    color: rgba(190, 235, 165, 0.45);
+    font-size: 0.85rem;
+    line-height: 1;
+
+    opacity: 0;
+    white-space: pre;
+
+    pointer-events: none;
+
+    transition: opacity 0.25s ease;
+}
+
+/* Smooth moving leaf layers */
+.lang-btn::before,
+.share-btn::before,
+.donate-btn::before,
+.lang-btn::after,
+.share-btn::after,
+.donate-btn::after {
+    position: absolute;
+    inset: -40px;
+    z-index: -1;
+
+    color: rgba(190, 235, 165, 0.38);
+    font-size: 0.85rem;
+    line-height: 1.8;
+    letter-spacing: 18px;
+
+    opacity: 0;
+    white-space: pre;
+    pointer-events: none;
+
+    transition: opacity 0.25s ease;
+}
+
+/* Layer 1: moves down-right */
+.lang-btn::before,
+.share-btn::before,
+.donate-btn::before {
+    content:
+        "🌿      🌿      🌿      🌿      🌿\A"
+        "   🌿      🌿      🌿      🌿      \A"
+        "🌿      🌿      🌿      🌿      🌿\A"
+        "   🌿      🌿      🌿      🌿      ";
+    animation: leafFlowOne 6s linear infinite;
+}
+
+/* Layer 2: same idea, opposite direction for cross movement */
+.lang-btn::after,
+.share-btn::after,
+.donate-btn::after {
+    content:
+        "   🌿      🌿      🌿      🌿      \A"
+        "🌿      🌿      🌿      🌿      🌿\A"
+        "   🌿      🌿      🌿      🌿      \A"
+        "🌿      🌿      🌿      🌿      🌿";
+    color: rgba(220, 255, 210, 0.24);
+    animation: leafFlowTwo 6s linear infinite;
+}
+
+.lang-btn:hover::before,
+.share-btn:hover::before,
+.donate-btn:hover::before,
+.lang-btn:hover::after,
+.share-btn:hover::after,
+.donate-btn:hover::after,
+.donate-btn.active-link::before,
+.donate-btn.active-link::after {
+    opacity: 0.55;
+}
+
+@keyframes leafFlowOne {
+    from {
+        transform: translate(-60px, -36px);
+    }
+
+    to {
+        transform: translate(60px, 36px);
+    }
+}
+
+@keyframes leafFlowTwo {
+    from {
+        transform: translate(60px, -36px);
+    }
+
+    to {
+        transform: translate(-60px, 36px);
+    }
+}
+
+/* Click leaf pop effect */
+.leaf-pop {
+    position: fixed;
+    z-index: 9999;
+    pointer-events: none;
+
+    font-size: 1rem;
+
+    animation: leafJump 0.7s ease-out forwards;
+}
+
+@keyframes leafJump {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(0.8) rotate(0deg);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(-28px) scale(1.2) rotate(18deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-48px) scale(0.6) rotate(35deg);
+    }
+}
+
+/* After that animation Mess */
+@media (max-width: 600px) {
+    .page-hero,
+    .content-section,
+    .media-section,
+    .conclusion-section {
+        padding: 44px 20px;
+    }
+
+    .topic-list {
+        grid-template-columns: 1fr;
+    }
+
+    .media-placeholder {
+        min-height: 220px;
+    }
+
+    .page-hero h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/* After Mobile Fix */
+.media-placeholder,
+.intro-media,
+.explainer-media {
+    overflow: hidden;
+}
+
+.media-placeholder img,
+.intro-media img,
+.explainer-media img,
+.media-placeholder iframe,
+.intro-media iframe,
+.explainer-media iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 0;
+}
+
+/* Kyboard Focusing */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid rgba(31, 61, 36, 0.75);
+    outline-offset: 4px;
 }
