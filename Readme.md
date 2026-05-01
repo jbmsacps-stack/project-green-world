@@ -20,12 +20,6 @@ A free Global Warming awareness website built to educate, inform, and encourage 
   <img src="https://img.shields.io/badge/JavaScript-Interactive%20Features-F7DF1E?style=for-the-badge&logo=javascript" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Language-English%20%7C%20Tamil-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SEO-Basic%20Setup-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Accessibility-Focused-lightgrey?style=for-the-badge" />
-</p>
-
 🌐 **Live Website:** <a href="[project-green-world.io](https://jbmsacps-stack.github.io/project-green-world/client/index.html)" target="_blank" rel="noopener noreferrer">Open Project Green World</a>
 
 </div>
