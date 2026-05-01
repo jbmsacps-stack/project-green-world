@@ -19,7 +19,8 @@ A free Global Warming awareness website built to educate, inform, and encourage 
   <img src="https://img.shields.io/badge/JavaScript-Interactive%20Features-F7DF1E?style=for-the-badge&logo=javascript" />
 </p>
 
-🌐 **Live Website:** [project-green-world.org](https://jbmsacps-stack.github.io/project-green-world/client/index.html)Open Project Green World
+🌐 **Live Website:** [project-green-world.org](https://jbmsacps-stack.github.io/project-green-world/client/index.html)
+Open Project Green World
 
 </div>
 
