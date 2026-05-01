@@ -10,7 +10,6 @@ A free Global Warming awareness website built to educate, inform, and encourage 
 <p>
   <img src="https://img.shields.io/badge/Status-Under%20Development-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Purpose-Awareness-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/No%20Monetization-100%25%20Free-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge" />
 </p>
 
@@ -20,7 +19,7 @@ A free Global Warming awareness website built to educate, inform, and encourage 
   <img src="https://img.shields.io/badge/JavaScript-Interactive%20Features-F7DF1E?style=for-the-badge&logo=javascript" />
 </p>
 
-🌐 **Live Website:** <a href="[project-green-world.io](https://jbmsacps-stack.github.io/project-green-world/client/index.html)" target="_blank" rel="noopener noreferrer">Open Project Green World</a>
+🌐 **Live Website:** [project-green-world.org](https://jbmsacps-stack.github.io/project-green-world/client/index.html)Open Project Green World
 
 </div>
 
