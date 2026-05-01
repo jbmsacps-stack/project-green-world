@@ -20,7 +20,6 @@ A free Global Warming awareness website built to educate, inform, and encourage 
 </p>
 
 🌐 **Live Website:** [project-green-world.org](https://jbmsacps-stack.github.io/project-green-world/client/index.html)
-Open Project Green World
 
 </div>
 
