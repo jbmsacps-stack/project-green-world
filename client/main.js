@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let currentLanguage = localStorage.getItem("language") || "en";
 
         function applyLanguage(language) {
+            document.documentElement.lang = language;
+
             const translatableElements = document.querySelectorAll("[data-en][data-ta]");
 
             translatableElements.forEach(function (element) {
