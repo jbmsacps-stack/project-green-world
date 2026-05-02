@@ -1,4 +1,3 @@
-````md
 <div align="center">
 
 <img src="https://img.shields.io/badge/Project-Green%20World-2d6a4f?style=for-the-badge&labelColor=1b4332" />
