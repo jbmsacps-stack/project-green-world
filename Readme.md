@@ -51,27 +51,6 @@ Visit the live version here:
 
 **https://jbmsacps-stack.github.io/project-green-world/client/index.html**
 
-### Screenshots
-
-> Add your screenshots here after taking full-page captures of the website.
-
-```md
-![Project Green World Homepage](./screenshots/homepage.png)
-![Causes Page](./screenshots/causes-page.png)
-![Mobile View](./screenshots/mobile-view.png)
-````
-
-Recommended screenshot folder:
-
-```txt
-project-green-world/
-│
-├── screenshots/
-│   ├── homepage.png
-│   ├── causes-page.png
-│   └── mobile-view.png
-```
-
 ---
 
 
