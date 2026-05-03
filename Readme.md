@@ -1,32 +1,43 @@
+Yes. Your current README is already strong, but it sounds a bit like a “finished platform.” Since the project is still evolving, this version presents it as a **working early-stage awareness website** without using the word you told me not to use.
+
+It also updates the README based on your current project level: article-style Causes/Effects/Solutions pages, bilingual Tamil support, donation/support cards, disclaimer, YouTube embeds, mobile improvements, and the new logo direction. Your existing README already describes the project as bilingual, non-commercial, static, and GitHub Pages-hosted, so I kept that foundation and upgraded the tone. 
+
+Replace your README with this:
+
+````md
 <div align="center">
 
 <img src="https://img.shields.io/badge/Project-Green%20World-2d6a4f?style=for-the-badge&labelColor=1b4332" />
 
 <h1>Project Green World</h1>
 
-<h3>A bilingual climate awareness website built for education, accessibility, and responsible action.</h3>
+<h3>A bilingual climate awareness website built to explain global warming through simple articles, Tamil support, educational media, and responsible action links.</h3>
 
 <p>
-Project Green World is a free, non-commercial Global Warming awareness website designed to explain climate causes, effects, solutions, and support resources in a clear and accessible way.  
-It is built for students, general readers, and Tamil-speaking communities who need simple, trustworthy environmental awareness content.
+Project Green World is a free, non-commercial Global Warming awareness website created to help students, families, general readers, and Tamil-speaking visitors understand climate change in a clear and accessible way.
+</p>
+
+<p>
+The project currently focuses on explaining the causes, effects, solutions, donation/support references, and educational limitations of climate awareness content through a lightweight static website.
 </p>
 
 <p>
   <a href="https://jbmsacps-stack.github.io/project-green-world/client/index.html">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-40916c?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Live%20Website-Visit%20Project-40916c?style=for-the-badge" />
   </a>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Status-Under%20Development-f4a261?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Version-v0.1-52b788?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-Custom%20Terms-74c69d?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active%20Development-f4a261?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stage-Working%20Build-52b788?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Purpose-Education%20%26%20Awareness-74c69d?style=for-the-badge" />
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-Semantic-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-Responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-Interactive-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-222222?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
 </div>
@@ -35,59 +46,76 @@ It is built for students, general readers, and Tamil-speaking communities who ne
 
 ## Overview
 
-**Project Green World** is a static, multi-page awareness platform focused on Global Warming and environmental responsibility.
+**Project Green World** is a static, bilingual climate awareness website focused on explaining Global Warming in a simple, readable, and responsible way.
 
-The website explains climate-related topics through structured pages, bilingual content support, accessible layout decisions, and a lightweight frontend architecture. The goal is not just to display information, but to make climate awareness easier to understand, easier to share, and easier to access.
+The website is built using core frontend technologies and is designed as an educational project rather than a commercial product. It currently includes article-style pages, Tamil language support, embedded educational videos, support/donation references, and a disclaimer explaining the limits of the information shared.
 
-> This project is non-commercial. It does not collect payments, donations, or user data.
+The goal is not only to show information, but to make climate awareness easier to read, easier to understand, and easier to share.
+
+> Project Green World does not collect payments, donations, personal information, or user accounts.
 
 ---
 
-## Demo
+## Live Website
 
-### Live Website
-
-Visit the live version here:
+Visit the live website:
 
 **https://jbmsacps-stack.github.io/project-green-world/client/index.html**
 
 ---
 
+## Project Highlights
 
-| Highlight                   | Value                                                                                  |
-| --------------------------- | -------------------------------------------------------------------------------------- |
-| **Bilingual Experience**    | Supports both English and Tamil using a lightweight JavaScript-based language switcher |
-| **Static Architecture**     | Runs without backend, database, authentication, or paid hosting                        |
-| **Accessible Structure**    | Uses semantic HTML, ARIA labels, readable hierarchy, and keyboard-friendly design      |
-| **Responsive UI**           | Designed for desktop, tablet, and mobile screens                                       |
-| **No Framework Dependency** | Built with core HTML, CSS, and JavaScript to demonstrate strong fundamentals           |
-| **Awareness-First Design**  | Focuses on education, clarity, and responsible climate communication                   |
-| **GitHub Pages Deployment** | Publicly hosted with a simple and maintainable deployment flow                         |
-
----
-
-## Key Engineering Highlights
-
-### 1. Lightweight Static Architecture
-
-Project Green World is intentionally built as a static website.
-
-This keeps the project:
-
-* Fast to load
-* Easy to host
-* Simple to maintain
-* Free to deploy
-* Accessible without login barriers
-* Suitable for GitHub Pages hosting
-
-No backend is required because the project focuses on awareness content, page navigation, language switching, and user interaction.
+| Highlight | Description |
+| --- | --- |
+| **Bilingual Content** | Supports English and Tamil through a lightweight JavaScript language switcher |
+| **Awareness Articles** | Causes, Effects, and Solutions are written in long-form readable article style |
+| **Educational Videos** | Selected YouTube embeds are used to visually support climate topics |
+| **Donation References** | Donate page lists external official support links instead of collecting money directly |
+| **Disclaimer Page** | Explains educational purpose, limits, external links, donation responsibility, and copyright care |
+| **Responsive Layout** | Designed for desktop, tablet, and mobile screens |
+| **Static Website** | No backend, database, login system, or paid hosting required |
+| **GitHub Pages Hosting** | Publicly accessible through a simple static deployment flow |
 
 ---
 
-### 2. English–Tamil Language Switcher
+## Current Project State
 
-The language system uses custom HTML data attributes:
+Project Green World is currently a working static website under active improvement.
+
+The main structure is complete, and the project now has dedicated pages for:
+
+- Home
+- Causes of Global Warming
+- Effects of Global Warming
+- Solutions for Global Warming
+- Donate / Support Climate Action
+- Disclaimer
+
+The project is still being refined in areas such as content depth, translation quality, mobile polish, visual branding, citations, and final consistency across all pages.
+
+---
+
+## Main Pages
+
+| Page | Purpose |
+| --- | --- |
+| `index.html` | Introduces the project, visual identity, and navigation to major sections |
+| `causes.html` | Explains the causes of global warming in article format |
+| `effects.html` | Explains the effects of global warming on people, nature, oceans, health, food, and homes |
+| `solutions.html` | Presents practical solutions such as clean energy, transport, forests, waste reduction, and awareness |
+| `donate.html` | Provides external official support links for environmental protection, climate action, and relief |
+| `disclaimer.html` | Clarifies educational purpose, limits, external links, donation responsibility, and content ownership |
+
+---
+
+## Key Features
+
+### 1. English and Tamil Language Support
+
+The website includes a simple bilingual system using `data-en` and `data-ta` attributes.
+
+Example:
 
 ```html
 <h3
@@ -95,122 +123,141 @@ The language system uses custom HTML data attributes:
   data-ta="உலக வெப்பமயமாதலின் காரணங்கள்">
   Causes of Global Warming
 </h3>
-```
+````
 
-JavaScript reads the `data-en` and `data-ta` values and updates page text instantly.
+JavaScript reads these attributes and switches the visible text without reloading the page.
 
-This approach keeps the website:
+This keeps the website:
 
+* Lightweight
 * Fully static
 * Easy to extend
-* Lightweight
 * Beginner-friendly
-* Suitable for bilingual educational content
+* Useful for Tamil-speaking visitors
 
 ---
 
-### 3. Semantic and Accessible HTML
+### 2. Article-Style Climate Pages
 
-The site uses meaningful HTML structure instead of generic layout-only markup.
+The earlier card-based placeholders have been improved into longer article-style sections.
 
-Examples include:
+Current content includes:
 
-```html
-<header>
-<nav>
-<main>
-<section>
-<article>
-<footer>
+* Causes of global warming
+* Effects of global warming
+* Practical solutions
+* Awareness-focused explanations
+* Tamil translations
+* Embedded educational videos
+* Final reflection sections
+* Continue-learning cards
+
+The content is written to be understandable for students, families, and general readers instead of sounding like a technical report.
+
+---
+
+### 3. Educational YouTube Embeds
+
+Some pages include embedded YouTube videos to help visitors understand climate topics visually.
+
+The videos are placed after relevant article sections instead of being shown immediately at the top. This keeps the reading flow natural:
+
+```txt
+Explanation
+↓
+Related video
+↓
+Next topic
 ```
 
-This improves:
-
-* Accessibility
-* SEO readability
-* Screen reader support
-* Code maintainability
-* Professional frontend structure
+This helps the page feel more educational and less cluttered.
 
 ---
 
-### 4. Responsive Design System
+### 4. Donate / Support Page
 
-The layout is designed to adapt across common device sizes using CSS media queries, flexible sections, and card-based layouts.
+The Donate page does not collect money directly.
 
-The design considers:
+Instead, it provides external official support links related to:
 
-* Mobile navigation
-* Readable spacing
+* Environmental protection
+* Climate action
+* Relief and recovery
+* Tamil Nadu / India-focused environmental support
+* Wildlife and habitat restoration
+
+The page also warns visitors to verify official websites, payment details, and organization purpose before donating.
+
+---
+
+### 5. Disclaimer and Responsibility
+
+The Disclaimer page explains that Project Green World is an educational awareness project.
+
+It covers:
+
+* Educational purpose
+* No professional advice
+* Content accuracy limits
+* External links
+* Donation responsibility
+* Media and copyright
+* Final visitor responsibility
+
+This makes the project more transparent and responsible.
+
+---
+
+### 6. Responsive Design
+
+The layout is built to work across different screen sizes.
+
+Current responsive work includes:
+
+* Mobile-friendly navigation
 * Flexible card grids
-* Image scaling
-* Overflow handling
-* Touch-friendly interaction areas
+* Article hero mobile fixes
+* Responsive embedded videos
+* Safe page width handling
+* Improved text spacing
+* Overflow prevention
+
+The mobile layout is still being polished, but the base responsive system is already active.
 
 ---
 
-## Features
+### 7. Lightweight Frontend Architecture
 
-### Awareness Pages
+Project Green World is intentionally built with:
 
-| Page              | Purpose                                                        |
-| ----------------- | -------------------------------------------------------------- |
-| `index.html`      | Introduces the project and its mission                         |
-| `causes.html`     | Explains the major causes of Global Warming                    |
-| `effects.html`    | Shows the impact of climate change on Earth and human life     |
-| `solutions.html`  | Presents practical actions and climate solutions               |
-| `donate.html`     | Provides trusted external support and donation references      |
-| `disclaimer.html` | Clarifies educational purpose, responsibility, and limitations |
+* HTML
+* CSS
+* Vanilla JavaScript
 
----
+There are no frameworks, build tools, databases, or backend services.
 
-### Bilingual Support
+This makes the project:
 
-* English ↔ Tamil language switching
-* Built using `data-en` and `data-ta` attributes
-* No backend required
-* No page reload required
-* Designed for regional accessibility
-
----
-
-### User Interaction
-
-* Native browser share button
-* Clipboard fallback for unsupported browsers
-* Interactive card hover effects
-* Navigation hover states
-* Button feedback effects
-
----
-
-### Accessibility and SEO
-
-* Semantic HTML5 layout
-* ARIA labels for navigation and buttons
-* Clear heading hierarchy
-* Keyboard focus styles
-* Meta descriptions
-* SEO-friendly page titles
-* Open Graph-ready structure
+* Easy to understand
+* Easy to host
+* Easy to maintain
+* Suitable for GitHub Pages
+* Strong for demonstrating frontend fundamentals
 
 ---
 
 ## Tech Stack
 
-| Layer              | Technology                                    |
-| ------------------ | --------------------------------------------- |
-| Structure          | HTML5                                         |
-| Styling            | CSS3                                          |
-| Logic              | Vanilla JavaScript                            |
-| Language Switching | JavaScript + `data-en` / `data-ta` attributes |
-| Responsiveness     | CSS Media Queries                             |
-| Accessibility      | Semantic HTML, ARIA labels, focus states      |
-| SEO                | Meta tags, page titles, structured headings   |
-| Hosting            | GitHub Pages                                  |
-
-> No frameworks. No UI libraries. No build tools.
-> The project is built to demonstrate clean frontend fundamentals.
+| Layer           | Technology                       |
+| --------------- | -------------------------------- |
+| Structure       | HTML5                            |
+| Styling         | CSS3                             |
+| Logic           | Vanilla JavaScript               |
+| Translation     | `data-en` / `data-ta` attributes |
+| Media           | YouTube embeds                   |
+| Responsiveness  | CSS media queries                |
+| Hosting         | GitHub Pages                     |
+| Version Control | Git and GitHub                   |
 
 ---
 
@@ -220,19 +267,19 @@ The design considers:
 project-green-world/
 │
 ├── README.md
-├── images/
-│   └── LeafLogoTemp.jpg
 │
 └── client/
-    ├── index.html          # Home page
-    ├── causes.html         # Causes of Global Warming
-    ├── effects.html        # Effects on the planet and people
-    ├── solutions.html      # Practical climate solutions
-    ├── donate.html         # External support and donation links
-    ├── disclaimer.html     # Educational disclaimer
-    ├── common.css          # Shared global styles
-    ├── home.css            # Home page specific styles
-    └── main.js             # Language switcher and interactions
+    ├── index.html
+    ├── causes.html
+    ├── effects.html
+    ├── solutions.html
+    ├── donate.html
+    ├── disclaimer.html
+    ├── common.css
+    ├── home.css
+    ├── main.js
+    ├── images/
+    └── project logo / nature / climate assets
 ```
 
 ---
@@ -253,65 +300,89 @@ cd project-green-world
 
 ### 3. Open the website
 
-Open this file directly in your browser:
+Open this file in your browser:
 
 ```txt
 client/index.html
 ```
 
-Or use VS Code Live Server for a smoother development experience.
+For a smoother development workflow, use the VS Code Live Server extension.
 
 ---
 
 ## Running with VS Code Live Server
 
-1. Open the project in VS Code
-2. Install the **Live Server** extension
-3. Right-click `client/index.html`
-4. Click **Open with Live Server**
-
-The project should now run locally in your browser.
+1. Open the project folder in VS Code.
+2. Install the **Live Server** extension.
+3. Right-click `client/index.html`.
+4. Select **Open with Live Server**.
 
 ---
 
-## Current Development Status
+## Current Improvements Completed
 
-Project Green World is currently under active development.
+* Built a multi-page climate awareness website
+* Added English and Tamil language switching
+* Created a responsive navigation system
+* Added article-style Causes page
+* Added article-style Effects page
+* Added article-style Solutions page
+* Improved Donate page with official external support links
+* Added a stronger Disclaimer page
+* Added embedded YouTube learning videos
+* Added redirect cards between major pages
+* Improved mobile hero layout
+* Added custom logo direction for the project
+* Deployed the website through GitHub Pages
 
-Current focus areas:
+---
 
-* Replacing placeholder content with researched climate information
-* Improving Tamil translations
-* Adding educational images with proper alt text
-* Expanding the Donate page with verified official links
-* Improving SEO metadata
-* Adding screenshots to the README
-* Final mobile polish and QA testing
+## Still Being Improved
+
+* Final Tamil translation polish
+* More source references for climate claims
+* More consistent page spacing
+* Better mobile navigation refinement
+* Final favicon/logo replacement
+* README screenshots
+* Page-specific SEO metadata
+* Better Open Graph preview image
+* More polished donation/support page organization
+* Final content proofreading
 
 ---
 
 ## Roadmap
 
-* [ ] Replace placeholder content with researched information
-* [ ] Add credible references for climate-related claims
-* [ ] Improve English and Tamil content quality
-* [ ] Add educational images with descriptive alt text
+* [x] Create static multi-page website
+* [x] Add bilingual English/Tamil support
+* [x] Add Causes article page
+* [x] Add Effects article page
+* [x] Add Solutions article page
+* [x] Add Disclaimer page
+* [x] Add Donate / Support page
+* [x] Add embedded educational videos
+* [x] Deploy using GitHub Pages
+* [ ] Add final logo and favicon across all pages
 * [ ] Add screenshots to README
+* [ ] Add verified references section
+* [ ] Improve Tamil translation consistency
 * [ ] Improve mobile navigation polish
-* [ ] Add embedded educational videos where useful
-* [ ] Expand Donate page with verified links
-* [ ] Improve SEO and Open Graph metadata
-* [ ] Prepare a stable public release
+* [ ] Add stronger SEO and Open Graph metadata
+* [ ] Final responsive QA testing
+* [ ] Prepare a stable public version
 
 ---
 
-## Disclaimer
+## Important Disclaimer
 
-The information on this website is for awareness and educational purposes only.
+Project Green World is created for educational and awareness purposes only.
 
-The creator is not a certified scientist, climate expert, environmental researcher, or official climate authority. Future content will aim to reference credible and trusted sources, but users are encouraged to verify important information from official scientific and government sources.
+The information on this website is written in a simple way for general understanding. It should not be treated as professional scientific advice, legal advice, medical advice, financial advice, environmental consultation, or official government guidance.
 
-Project Green World does not collect donations directly. Any external donation or support links should be verified by users before taking action.
+Visitors should verify important climate-related information through trusted scientific, educational, and government sources.
+
+Project Green World does not collect donations directly. Any donation or support links shown on the website lead to external organization pages. Visitors should verify the organization, website, purpose, and payment details before donating.
 
 ---
 
@@ -320,18 +391,18 @@ Project Green World does not collect donations directly. Any external donation o
 **Project Green World**
 Copyright © 2026 Joshua Baskar. All rights reserved.
 
-| Use Case                                  | Status                      |
-| ----------------------------------------- | --------------------------- |
-| Personal learning and study               | Permitted                   |
-| Private forking and experimentation       | Permitted                   |
-| Sharing with proper attribution           | Permitted                   |
-| Academic reference with credit            | Permitted                   |
-| Public publishing under another name      | Written permission required |
-| Commercial or monetized use               | Written permission required |
-| Redistribution under a different identity | Not permitted               |
-| Claiming ownership of any part            | Not permitted               |
+| Use Case                                     | Status                      |
+| -------------------------------------------- | --------------------------- |
+| Personal learning and study                  | Permitted                   |
+| Private experimentation                      | Permitted                   |
+| Sharing with proper credit                   | Permitted                   |
+| Academic reference with attribution          | Permitted                   |
+| Public publishing under another name         | Written permission required |
+| Commercial or monetized use                  | Written permission required |
+| Redistribution under a different identity    | Not permitted               |
+| Claiming ownership of the project or content | Not permitted               |
 
-Unauthorized use may be subject to applicable intellectual property and copyright law.
+Unauthorized use may be subject to applicable copyright and intellectual property law.
 
 ---
 
@@ -350,19 +421,19 @@ Unauthorized use may be subject to applicable intellectual property and copyrigh
 
 ---
 
-## Collaboration and Contact
+## Collaboration
 
-I am open to feedback, suggestions, and collaboration that can improve the quality, accessibility, and educational value of this project.
+Feedback and suggestions are welcome, especially in areas that improve the educational quality and accessibility of the project.
 
-Areas where collaboration is welcome:
+Areas where feedback is useful:
 
 * Climate content review
 * Tamil translation improvements
 * Accessibility suggestions
 * UI and responsive design improvements
-* Educational resources and verified references
-
-For collaboration or professional contact, reach me through GitHub or LinkedIn.
+* Verified educational resources
+* Donation/support link review
+* README and documentation improvement
 
 ---
 
@@ -375,9 +446,4 @@ For collaboration or professional contact, reach me through GitHub or LinkedIn.
 If this project helped you understand climate awareness better, consider giving the repository a star.
 
 </div>
-```
-
-
-```md
-License-Custom Terms
 ```
