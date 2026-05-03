@@ -310,3 +310,32 @@
 .explainer-layout {
     max-width: 100%;
 }
+
+/* Media Showcase */
+.image-slider {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #101810;
+}
+
+.image-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    animation: imageFade 1s ease-in-out;
+}
+
+@keyframes imageFade {
+    from {
+        opacity: 1;
+        transform: scale(1.01);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
