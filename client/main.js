@@ -73,35 +73,58 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const sliders = {
         nature: [
-            "https://github.com/jbmsacps-stack/project-green-world/blob/main/images/nature1.jpg",
-            "images/nature-2.jpg",
-            "images/nature-3.jpg"
+            "images/nature1.jpg",
+            "images/nature2.jpg",
+            "images/nature3.webp",
+            "images/nature4.webp",
+            "images/nature5.webp",
+            "images/nature6.webp",
+            "images/nature7.jpg",
+            "images/nature8.jpg",
+            "images/nature9.jpg",
+            "images/nature10.jpg"
         ],
 
         warming: [
-            "images/warming-1.jpg",
-            "images/warming-2.jpg",
-            "images/warming-3.jpg"
-        ],
-
-        solutions: [
-            "images/solution-1.jpg",
-            "images/solution-2.jpg",
-            "images/solution-3.jpg"
+            "images/warming1.jpg",
+            "images/warming2.webp",
+            "images/warming3.webp",
+            "images/warming4.webp",
+            "images/warming5.webp",
+            "images/warming6.webp",
+            "images/warming7.webp",
+            "images/warming8.webp",
+            "images/warming9.webp",
+            "images/warming10.webp",
+            "images/warming11.webp",
+            "images/warming12.webp",
+            "images/warming13.jpg"
         ]
     };
 
     document.querySelectorAll(".image-slider").forEach((slider) => {
         const sliderName = slider.dataset.slider;
         const img = slider.querySelector("img");
-
-        let currentIndex = 0;
         const sliderImages = sliders[sliderName];
 
-        if (!sliderImages) {
-            console.error(`No image list found for slider: ${sliderName}`);
+        let currentIndex = 0;
+
+        if (!img) {
+            console.error("No img tag found inside:", slider);
             return;
         }
+
+        if (!sliderImages || sliderImages.length === 0) {
+            console.error("No image list found for:", sliderName);
+            return;
+        }
+
+        img.src = sliderImages[currentIndex];
+        img.style.animation = "cinematicZoomOut 5s ease forwards";
+
+        img.onerror = function () {
+            console.error("Image failed:", img.src);
+        };
 
         function changeImage() {
             currentIndex++;
@@ -114,10 +137,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
             setTimeout(() => {
                 img.src = sliderImages[currentIndex];
-                img.style.animation = "imageFade 1s ease-in-out";
-            }, 100);
+                img.style.opacity = "1";
+                img.style.animation = "cinematicZoomOut 20s ease forwards";
+            }, 50);
         }
 
-        setInterval(changeImage, 4000);
+        setInterval(changeImage, 6000);
     });
+
 });
